@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Dela+Gothic+One&family=Titan+One&display=swap');
 
+.class {
+    background-size: cover;
+    background-position: top center;  
+}
+
 body {
     font-family: 'Titan One', cursive;
     background-image: url('bg.jpg');
@@ -17,7 +22,6 @@ body {
 
 .container-temp{
     display: flex;
-    justify-content: full;
     background-color: rgba(244, 208, 63, 0.2);
     box-shadow: 5px 6px rgba(0, 0, 0, 0.6);
     cursor: pointer;
